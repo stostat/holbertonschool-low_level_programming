@@ -1,2 +1,2 @@
 #!/bin/bash  
-sudo gcc -E $CFILE -o c 
+sudo gcc $CFILE -E -o c 
