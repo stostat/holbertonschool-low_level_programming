@@ -12,7 +12,7 @@ for (i=0;i<=10;i++)
 {
 for(n='a';n<='z';n++)
 {
-putchar(n);
+_putchar(n);
 }
-putchar('\n');}
+_putchar('\n');}
 }
