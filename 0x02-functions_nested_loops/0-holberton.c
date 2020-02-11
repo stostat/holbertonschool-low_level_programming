@@ -4,8 +4,9 @@
 *
 *Return: always 0 (succes)
 */
-int main(void) {
-char hol[]="Holberton\n";
+int main(void) 
+{
+char hol[]="Holberton";
 int i=0;
 while (i<9)
 {
