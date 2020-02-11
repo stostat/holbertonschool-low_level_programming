@@ -5,7 +5,7 @@
 *Return: always 0 (succes)
 */
 int main(void) {
-char hol[]="Holberton";
+char hol[]="Holberton\n";
 int i=0;
 while (i<9)
 {
