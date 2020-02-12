@@ -1,7 +1,8 @@
 #include "holberton.h"
 /**
  *add - adds numbers
- *@a: integer @b: integer
+ *@a: integer
+ *@b: integer
  *Return: INteger
  */
 
