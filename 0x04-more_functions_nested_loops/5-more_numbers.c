@@ -15,9 +15,9 @@ void more_numbers(void);
 		for (b = 0 ; b < 15 ; b++)
 		{
 			if (b > 9)
-				putchar((b / 10) + 48);
-			putchar((b % 10) + 48);
+				_putchar((b / 10) + 48);
+			_putchar((b % 10) + 48);
 		}
-	putchar('\n');
+	_putchar('\n');
 	}
 }
