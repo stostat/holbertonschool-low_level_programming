@@ -2,7 +2,7 @@
 
 /**
   * print_line - prints straight line
-  * @n: Integer 
+  * @n: Integer
   * Return: Void
   */
 
