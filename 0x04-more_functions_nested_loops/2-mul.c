@@ -2,12 +2,12 @@
 
 /**
   * mul - checks for a character if uppercase
-  * ac: Integer
+  * @a: Integer
   * @b: second integer
   * Return: Integer
   */
 
 int mul(int a, int b)
 {
-return (a *b);
+return (a * b);
 }
