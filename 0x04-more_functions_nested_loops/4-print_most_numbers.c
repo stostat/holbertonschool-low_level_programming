@@ -8,7 +8,7 @@
 void print_most_numbers(void)
 {
 	int i;
-	char c[8] = "01356789";
+	char c[] = "01356789";
 
 	i = 0;
 	while (i <= 8)
