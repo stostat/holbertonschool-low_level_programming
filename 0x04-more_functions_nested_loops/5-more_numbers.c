@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
-  * _isupper - checks for a character if uppercase
+  * more_numbers - checks for a character if uppercase
   * Return: void
   */
 
-void more_numbers(void);
+void more_numbers(void)
 {
 	int a;
 	int b;
