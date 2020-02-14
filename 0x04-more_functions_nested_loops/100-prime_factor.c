@@ -6,7 +6,7 @@
   *Return: always 0 (succes)
   */
 
-int main()
+int main(void)
 {
 	int a;
 	int b;
@@ -15,7 +15,7 @@ int main()
 	c = 612852475143;
 	for (a = 2; a < sqrt(c); a++)
 	{
-		if(c % a == 0)
+		if (c % a == 0)
 		{
 			b = a;
 			c = c / a;
