@@ -8,6 +8,7 @@
 void puts2(char *str)
 {
 	int ind = 0;
+
 	while (str[ind] != '\0')
 	{
 		_putchar(str[ind]);
