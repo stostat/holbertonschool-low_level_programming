@@ -26,5 +26,6 @@ int _atoi(char *s)
 			break;
 		if (sign % 2 != 0)
 			result = result * -1;
-		return (result);
+	}
+	return (result);
 }
