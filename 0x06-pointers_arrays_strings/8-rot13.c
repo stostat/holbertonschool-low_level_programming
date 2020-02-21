@@ -9,24 +9,22 @@
 
 char *rot13(char *s)
 {
-	int count;
+	int count1; 
+	int count2;
+	char rot1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char rot2[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	count = 0;
-
-	while ( s[count] != '\0')
+	for (count1 = 0; s[count1] != '\0'; count1++)
 	{
-		if ((s[count] >= 'a' && s[count] <= 'm') || (s[count] >= 'A' && s[count] <= 'M'))
+		for (count2 = 0; rot1[count2] != '\0'; count2++)
 		{
-			s[count] = (s[count] + 13);
-		}
-		else
-		{
-			while ((s[count] >= 'n' && s[count] <= 'z') || (s[count] >= 'N' && s[count] <= 'Z'))
+			if (s[count1] == rot1[count2])
 			{
-				s[count] = (s[count] - 13);
+				s[count1] = rot2[count2];
+				break;
 			}
 		}
-		count++;
 	}
+
 	return (s);
 }
