@@ -1,0 +1,3 @@
+SEVENTH EXERCISE FROM LOW LEVEL PROGRAMMING
+
+double pointers and arrays
