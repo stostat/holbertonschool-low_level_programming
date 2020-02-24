@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * _strchr - check the code for Holberton School students.
+ * _strpbrk - check the code for Holberton School students.
  * @s: char
- * @c: char
+ * @accept: char
  * Return: char.
  */
 
