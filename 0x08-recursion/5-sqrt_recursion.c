@@ -9,9 +9,9 @@ int _sqrt_recursion(int n)
 {
 	if (n == 0)
 		return (0);
-	if (n == 1)
+	else if (n == 1)
 		return (1);
-	if (n < 0)
+	else if (n < 0)
 		return (-1);
 	else
 		return (cuadrado(n, 1));
@@ -28,7 +28,7 @@ int cuadrado(int n, int i)
 {
 	if (n == i * i)
 		return (i);
-	if (n > (i * i))
+	else if (n > (i * i))
 		return (cuadrado(n, i + 1));
 	else
 		return (-1);
