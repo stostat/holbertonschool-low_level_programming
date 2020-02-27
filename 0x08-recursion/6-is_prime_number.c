@@ -15,6 +15,8 @@ int is_prime_number(int n)
 		return (1);
 	if (n > 2)
 		return (get_prime(n, 2, n / 2));
+	else
+		return (0);
 }
 
 /**
