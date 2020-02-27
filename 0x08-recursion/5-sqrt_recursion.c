@@ -1,9 +1,9 @@
 #include "holberton.h"
- /**
-   * _sqrt_recursion - finds natural sqr
-   * @n: int
-   * return: int
-   */
+/**
+  * _sqrt_recursion - finds natural sqr
+  * @n: int
+  * Return: int
+  */
 
 int _sqrt_recursion(int n)
 {
@@ -21,7 +21,7 @@ int _sqrt_recursion(int n)
   * cuadrado - auxiliar
   * @n: int
   * @i: int
-  * return: int
+  * Return: int
   */
 
 int cuadrado(int n, int i)
