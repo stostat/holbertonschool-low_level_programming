@@ -9,4 +9,7 @@ int _strlen_recursion(char *s);
 int cuadrado(int n, int i);
 int is_prime_number(int n);
 int get_prime(int n, int a, int lim);
+int is_palindrome(char *s);
+int palnum(char *s);
+int palcheck(char *s, int count);
 #endif
