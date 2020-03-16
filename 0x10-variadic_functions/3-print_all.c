@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "variadic_functions.h"
-#include <stdarg.h>
+#include <stdlib.h>
 
 /**
  * print_c - function that prints anything.
@@ -81,7 +81,7 @@ void print_all(const char * const format, ...)
 		}
 		i++;
 	}
-	printf("\n");
 	va_end(list);
+	printf("\n");
 }
 
