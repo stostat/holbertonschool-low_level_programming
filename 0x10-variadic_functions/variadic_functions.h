@@ -6,7 +6,7 @@ void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 typedef struct ops
 {
-    char *op;
+    char op;
     void (*f)();
 } op_t;
 #endif
