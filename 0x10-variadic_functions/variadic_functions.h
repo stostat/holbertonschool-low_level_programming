@@ -13,7 +13,7 @@ void print_all(const char * const format, ...);
 
 typedef struct ops
 {
-    char *op;
-    void (*f)();
+	char *op;
+	void (*f)();
 } op_t;
 #endif
