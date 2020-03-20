@@ -7,11 +7,14 @@
  * free_list - adfunction that frees a list_t list.
  * @head: double pointer
  * Return: Void
- */void free_list(list_t *head)
-if (head)
+ */
+void free_list(list_t *head)
 {
-	free(head->str);
-	free_list(head->next);
-	free(head);
+	if (head)
+	{
+		free(head->str);
+		free_list(head->next);
+		free(head);
+	}
 }
 
