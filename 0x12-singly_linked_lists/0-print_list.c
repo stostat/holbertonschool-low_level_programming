@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+/**
+ * print_list - returns the number of elements in a linked list_t list.
+ * @h: pointer
+ * Return: int
+ */
 
 size_t print_list(const list_t *h)
 {
