@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * set_bit - returns value of bit at ith index
- * @n - long int
+ * @n: long int
  * @index: int
  * Return: int
  */

@@ -1,7 +1,8 @@
 #include "holberton.h"
+
 /**
- * binary_to_uint - BINARY TO UNSIGNED INT
- * @b - char
+ * binary_to_uint - binaru to unsigned int
+ * @b: const char
  * Return: int.
  */
 unsigned int binary_to_uint(const char *b)

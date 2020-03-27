@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * print_binary - BINARY TO UNSIGNED INT
- * @n - long int
+ * @n: long int
  * Return: Nothing.
  */
 void print_binary(unsigned long int n)
