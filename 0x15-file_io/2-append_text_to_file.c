@@ -19,7 +19,7 @@ int append_text_to_file(const char *filename, char *text_content)
 		return (-1);
 	for (i = 1; text_content[i]; i++)
 		;
-	ap = write(fd, text_comtent, i);
+	ap = write(fd, text_content, i);
 	close(fd);
 	if (ap == -1)
 		return (-1);
