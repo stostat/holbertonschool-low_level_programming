@@ -1,25 +1,18 @@
 #include "lists.h"
 
 /**
- * add_dnodeint_end - function that adds a node to the end
- * @head: double pointer to the head of the list
- * @n: data inserted in the node
- * Return: pointer to the head
+ * free_dlistint - frees lists
+ * @head:  pointer to the head of the list
+ * Return: NULL
  */
 void free_dlistint(dlistint_t *head)
 {
-	dlistint_t *current = head, *next = NULL;
+	dlistint_t *current = head;
 
-	while (current->prev)
+	while (head)
 	{
-		next = current->prev;
-		current = next;
-	}
-	while (current->next)
-	{
-		next = current->next;
+		current = head;
+		head = current->next;
 		free(current);
-		current = next;
 	}
-	free(current);
 }
