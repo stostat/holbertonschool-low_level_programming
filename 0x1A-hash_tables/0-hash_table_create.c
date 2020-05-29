@@ -20,7 +20,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	if (!ht->array)
 	{
 		free(ht);
-		return NULL;
+		return (NULL);
 	}
 
 	unsigned int i = 0;
