@@ -1,0 +1,13 @@
+# -*- Makefile -*-
+
+#target: dependencies
+#	action
+
+CC = gcc
+
+SRC = $(wildcard *.c)
+
+all: holberton
+
+holberton: $(SRC)
+	$(CC) -o holberton $(SRC)
