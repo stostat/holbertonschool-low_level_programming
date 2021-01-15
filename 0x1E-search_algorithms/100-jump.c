@@ -2,7 +2,7 @@
 #include "search_algos.h"
 #include <math.h>
 /**
- * jump_search -find a value in an sorted array using the Jump search algorithm.
+ * jump_search -find a value in an sorted array using the Jump search.
  * @array: ponter to head
  * @size: array size
  * @value: is the value to search for
